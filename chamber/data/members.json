@@ -1,0 +1,164 @@
+{
+    "members": [
+        {
+            "business": "Mukwano Industries Uganda Ltd",
+            "address": {
+                "street": "Plot 30 Mukwano Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256414313200",
+            "email": "admin@mukwano.com",
+            "website": "https://www.mukwano.com/",
+            "logo": {
+                "url": "https://mukwano.com/wp-content/uploads/2020/08/mukwano-logo.png",
+                "width": "200",
+                "height": "100"
+            },
+            "membership": "gold",
+            "category": "Shopping",
+            "advertisement": "Get an Extra 10% off purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Uganda Baati Ltd",
+            "address": {
+                "street": "Plot 14/28 Old Portbell Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256312260000",
+            "email": "",
+            "website": "https://www.ugandabaati.com/",
+            "logo": {
+                "url": "https://ugandabaati.com/wp-content/uploads/2020/02/site-logo.png",
+                "width": "250",
+                "height": "100"
+            },
+            "membership": "silver",
+            "category": "Home Improvement",
+            "advertisement": "Get 5% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Coca-Cola Beverages Africa",
+            "address": {
+                "street": "Plot 38-40 Jinja Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256312210000",
+            "email": " ",
+            "website": "https://www.coca-colaafrica.com/",
+            "logo": {
+                "url": "https://www.coca-cola.com/content/dam/onexp/global/icons/Coke-company-logo-black.svg",
+                "width": "250",
+                "height": "100"
+            },
+            "membership": "gold",
+            "category": "Food & Beverage",
+            "advertisement": "Get 10% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Roofings Group",
+            "address": {
+                "street": "Plot 126 Lubowa Estate",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256312200400",
+            "email": " ",
+            "website": "https://www.roofingsgroup.com/",
+            "logo": {
+                "url": "https://roofingsgroup.com/wp-content/uploads/2023/11/roofings-logo.-02-1-e1701155682499.png",
+                "width": "250",
+                "height": "100"
+            },
+            "membership": "silver",
+            "category": "Home Improvement",
+            "advertisement": "Get 10% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Kentucky Fried Chicken",
+            "address": {
+                "street": "Plot 2A Kampala Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256312260000",
+            "email": "info@deniosmarket.com",
+            "website": "https://www.kfcuganda.ug/",
+            "logo": {
+                "url": "https://cdn.tictuk.com/96309cfa-802c-f2cd-e79e-71062fea6db5/assets/logoDesktopHeader.svg",
+                "width": "250",
+                "height": "100"
+            },
+            "membership": "bronze",
+            "category": "Food & Beverage",
+            "advertisement": " Get 5% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Serena Hotels",
+            "address": {
+                "street": "Kintu Road, Plot 2",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256414309000",
+            "email": "contact@landscapetreeco.com",
+            "website": "https://www.serenahotels.com/",
+            "logo": {
+                "url": "https://image-tc.galaxy.tf/wisvg-bef60isivhiwcb2xdupujlz1o/serena-hotel-colored-logo.svg?width=122&height=64",
+                "width": "250",
+                "height": "100"
+            },
+            "membership": "silver",
+            "category": "Hospitality",
+            "advertisement": "Get 10% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Spear Motors Ltd",
+            "address": {
+                "street": "Plot 1 Jinja Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256414344200",
+            "email": "info@secureandalert.com",
+            "website": "https://www.spearmotors.net/",
+            "logo": {
+                "url": "https://static.wixstatic.com/media/adc327_98430ed33df049ed9482decb33597e40~mv2.jpg/v1/fill/w_121,h_85,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-02-28%20at%203_27_edited.jpg",
+                "width": "200",
+                "height": "80"
+            },
+            "membership": "gold",
+            "category": "Automotive",
+            "advertisement": "Get 10% off all purchases if you are a Chamber Member"
+        },
+        {
+            "business": "Sporta Med",
+            "address": {
+                "street": "Plot 3A Kampala Road",
+                "city": "Kampala",
+                "state": "UG",
+                "zip": "256"
+            },
+            "phone": "+256312260000",
+            "email": "roseville@wallenswim.com",
+            "website": "https://www.sportamed.com/",
+            "logo": {
+                "url": "https://www.f6s.com/content-resource/profiles/5688779_22f698a9be02137ab8696405550c72c57284438f_th1.jpg",
+                "width": "200",
+                "height": "75"
+            },
+            "membership": "bronze",
+            "category": "Health & Wellness",
+            "advertisement": "Get 5% off all purchases if you are a Chamber Member"
+        }
+    ]
+}

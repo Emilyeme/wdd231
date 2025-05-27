@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Kampala City Chamber of Commerce Company Directory">
+    <meta property="og:description" content="Discover the latest trends and strategies in commerce and business on our website. Stay ahead of the competition with expert insights, industry news, and practical tips to help you succeed in the fast-paced world of commerce. Join our community of business professionals and entrepreneurs to network, learn, and grow your business. Let's elevate your commerce and business game together.">
+    <meta property="og:image" content="https://picjj.com/images/2024/05/10/FUiwA.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Emilyeme.github.io/Wdd231/chamber/directory.html">
+    <title>Chamber of Commerce Member Directory</title>
+    <meta name="description" content="WDD 230 - Kampala City Chamber of Commerce Page Company Directory">
+    <meta name="author" content="Emily Emerson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap'" rel="stylesheet">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div id="nav-header">
+                <img class="logo" src="images/logo.png" alt="Kampala Chamber of Commerece logo">
+                
+                <button id="hamburger" title="menu button"></button>
+            </div>
+            <ul>
+                <li><a href="index.html" onclick="changeMenu ('Home')">Home</a></li>
+                <li><a href="discover.html" onclick="changeMenu ('old')">Discover</a></li>
+                <li class="current-menu-item"><a href="directory.html" onclick="changeMenu ('New')">Directory</a></li>
+                <li><a href="join.html" onclick="changeMenu ('New')">Join</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="directory">
+        <img class="icon2" src="images/chat-bubble.png" alt="Chat now" onclick="openForm()">
+                <div class="chat-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                    
+                    
+                    <label id="msg"><b>Message</b></label>
+                    <textarea placeholder="Type message.." name="msg" required></textarea>
+                    
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </form>
+                </div>  
+        <h1>Member Directory</h1>
+        <div class="menu">
+            <button id="grid">🔳 Grid</button>
+            <button id="list">📄 List</button>
+        </div>
+        <div id="members" class="grid">
+
+        </div>
+    </main>
+    <footer>
+        <script src="scripts/spotlight.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/action.js" defer></script>
+        <script src="scripts/banner.js" defer></script>
+        <p>&copy;<span id="currentyear"></span> ✈ Emily Emerson Cotilda N✈ WDD 231</p>
+        <p>Last Modified:<span id="lastModified"></span></p>
+        <div class="social">
+                <a href="https://www.linkedin.com/in/emily-emerson-27a28729b/" target="_blank">
+                    <img class="linkedin" src="images/LI-In-Bug.png" alt="linkedin icon">
+                </a>
+                <a href="https://facebook.com/Emily/Emerson" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">                   
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+        </div> 
+    </footer>
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
+</body>
+
+</html>
