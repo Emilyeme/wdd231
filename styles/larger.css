@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+  nav{
+    display:none;
+    width:100%;
+    background-color: #3f3f3f;
+
+  }
+  nav.active{
+    display: block;
+  }
+
+  .hamburger{
+    display: block;
+  }
+  .close{
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav.active + .close {
+    display: block;
+  }
+
+  nav ul li {
+    margin:10px 0;
+  }
+
+  button {
+    width: 100%;
+  }
+}

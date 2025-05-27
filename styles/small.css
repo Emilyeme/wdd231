@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap');
+
+body {  
+    font-family: 'Roboto', Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f4f4f4;  
+}  
+
+header {  
+    background-color: #3f51b5;  
+    color: white;  
+    padding: 15px 0;  
+    text-align: center;  
+}  
+
+.header-container {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+
+.profile-pic {    
+    width: 120px;  
+    height: 120px;  
+    margin-right: 100px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}  
+
+.hamburger, .close {  
+    display: none; /* Hide the hamburger and close buttons initially */  
+    cursor: pointer;  
+} 
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    justify-content: space-evenly;  
+    padding: 5px;  
+    margin: 0;  
+    width: calc(100% - 10px); /* Adjust width to account for padding */
+    background-color: black;
+    margin-bottom: 10px;  
+}  
+
+nav ul li:hover {  
+    background-color: #3f51b5;  
+    color: white;
+}  
+
+nav ul li { 
+    font-size: 1.5rem; 
+    flex: 1;  
+    text-align: center;  
+    margin: 0;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+.content {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 20px;  
+}  
+
+.course-work{
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    width: 45%;  
+}  
+
+.toloria {  
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    width: 45%;  
+    margin: 0 auto; /* Center align */
+    text-align: center; /* Center text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.certificate-section {  
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    width: 80%;  
+    margin: 0 auto; /* Center align */
+    text-align: center; /* Center text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-work h2,  
+.toloria h2 {  
+    margin-top: 0; 
+    font-size: 1.5rem; 
+}  
+
+.city {
+    background-color: #3f51b5;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work {
+    background-color: #3f51b5;
+    width: 98%;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.falls img {
+    width: 400px;
+    height: 400px;
+}
+
+.certificate {  
+    background-color: #3f51b5;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;
+    width: 100%;  
+}  
+
+.certificate-hearder {  
+    font-size: 1.2rem;
+    background-color: black;
+    color: #f4f4f4;  
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.courses {  
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0; 
+    font-size: 1.5rem;
+}  
+
+button {  
+    background-color: brown;  
+    color: white;  
+    border: none;  
+    padding: 10px;  
+    margin: 5px;  
+    cursor: pointer;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 10px;  
+    margin-top: 20px;  
+    background-color: #3f51b5;  
+    color: white;  
+}
+
