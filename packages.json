@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Murchison Falls Safari",
+    "image": "images/murchison.jpeg",
+    "video": "https://www.youtube.com/embed/UcKgDepi338?si=aDgkSiog9USZhmB2",
+    "description": "Explore Uganda’s largest national park with diverse wildlife and the thunderous Murchison Falls.",
+    "duration": "5 Days",
+    "price": "$900"
+  },
+  {
+    "id": 2,
+    "title": "Queen Elizabeth National Park",
+    "image": "images/queen.jpeg",
+    "video": "https://www.youtube.com/embed/9TaDzP1xbX4?si=WbgxKGi8xp6rf_DF",
+    "description": "Tree-climbing lions, elephants, and boat cruises along the Kazinga Channel.",
+    "duration": "4 Days",
+    "price": "$800"
+  },
+  {
+    "id": 3,
+    "title": "Lake Bunyonyi Getaway",
+    "image": "images/bunyonyi.jpeg",
+    "video": "https://www.youtube.com/embed/ku622tyg5tE?si=ZJUmjDq2BVEP7Stk",
+    "description": "Relax on peaceful islands with terraced hills and canoe rides.",
+    "duration": "3 Days",
+    "price": "$400"
+  }
+]
